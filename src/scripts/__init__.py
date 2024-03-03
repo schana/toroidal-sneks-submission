@@ -1,8 +1,8 @@
 import pathlib
 
-from sneks.config.config import config as sneks_config
-from sneks.engine import runner
-from sneks.validator import main as validator
+from sneks.engine.config.instantiation import config as sneks_config
+from sneks.engine.engine import runner
+from sneks.engine.validator import main as validator
 
 import scripts.config as script_config
 import submission

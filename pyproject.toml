@@ -2,9 +2,6 @@
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
-[tool.setuptools.dynamic]
-dependencies = {file = ["requirements.txt"]}
-
 [project]
 name = "toroidal-sneks-submission"
 version = "1.0.0"
@@ -19,6 +16,9 @@ classifiers = [
     "License :: OSI Approved :: Apache Software License",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "toroidal-sneks>=1.0.1"
 ]
 
 [project.scripts]
