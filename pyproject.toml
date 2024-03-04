@@ -18,7 +18,7 @@ classifiers = [
     "Programming Language :: Python :: 3.12",
 ]
 dependencies = [
-    "toroidal-sneks>=1.0.1"
+    "toroidal-sneks>=1.0.2"
 ]
 
 [project.scripts]
